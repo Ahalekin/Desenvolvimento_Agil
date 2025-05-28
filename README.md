@@ -7,7 +7,7 @@ Logo do sistema:
 Nome dos Integrantes:
 | Nome             | Foto                      | GitHub                                             |
 | ---------------- | ------------------------- | -------------------------------------------------- |
-| Leda Alexandre Miura  |  <div align="center"><img src="https://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K1112234U4" width="60"/></div>                   | [@miiura](https://github.com/miiura)       |
+| Leda Alexandre Miura  |  <div align="center"><img src="https://media.licdn.com/dms/image/v2/D4D03AQHP8RrWR2UvPg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1693867401851?e=1753920000&v=beta&t=U3VXCWnBEpYatiCiUPOUYH9Go2J-k0dHH5PyB-Z0F5o" width="60"/></div>                   | [@miiura](https://github.com/miiura)       |
 | Matheus José Rossieri |  <div align="center"><img src="LINK IMAGEM" width="60"/></div>  | [@ARROBAGITHUB](LINKGITHUB)             |
 | Alexis Liasch Tavares | <div align="center"><img src="IMAGEM" width="60"/></div> | [@ARROBA](LINKGITHUB)           |
 | Kevin Luiz Botelho Lima | <div align="center"><img src="IMAGEM" width="60"/></div> | [@ARROBA](LINKGITHUB)           |
