@@ -9,9 +9,8 @@ Nome dos Integrantes:
 | ---------------- | ------------------------- | -------------------------------------------------- |
 | Leda Alexandre Miura  |  <div align="center"><img src="https://media.licdn.com/dms/image/v2/D4D03AQHP8RrWR2UvPg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1693867401851?e=1753920000&v=beta&t=U3VXCWnBEpYatiCiUPOUYH9Go2J-k0dHH5PyB-Z0F5o" width="60"/></div>                   | [@miiura](https://github.com/miiura)       |
 | Matheus José Rossieri |  <div align="center"><img src="https://media.licdn.com/dms/image/v2/D4D03AQGl8Cpb1EC21w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1696288697873?e=1753920000&v=beta&t=6CzfB0cT5f-ALfEez1rM6QzoxCvr9h-K1FbrvdCGm_I" width="60"/></div>  | [@MatheusRossieri](https://github.com/MatheusRossieri)             |
-| Alexis Liasch Tavares | <div align="center"><img src="IMAGEM" width="60"/></div> | [@ARROBA](LINKGITHUB)           |
-| Kevin Luiz Botelho Lima | <div align="center"><img src="IMAGEM" width="60"/></div> | [@ARROBA](LINKGITHUB)           |
-| Alex Luciano de Souza Santos | <div align="center"><img src="IMAGEM" width="60"/></div> | [@ARROBA](LINKGITHUB)           |
+| Alexis Liasch Tavares | <div align="center"><img src="https://avatars.githubusercontent.com/u/118134379?v=4" width="60"/></div> | [@Ahalekin](https://github.com/Ahalekin)           |
+| Kevin Luiz Botelho Lima | <div align="center"><img src="https://media.licdn.com/dms/image/v2/D4E03AQFIHvf6BPk1ww/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711394967164?e=1753920000&v=beta&t=esBMojzkzwLZwU7XHrSQv98hSzzw7qA3RsA1IS36gvg" width="60"/></div> | [@KevinLuiz10](https://github.com/KevinLuiz10)           |
 
 
 Disciplina: Desenvolvimento Ágil, 2025/1
