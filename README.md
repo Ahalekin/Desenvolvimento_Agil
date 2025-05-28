@@ -1,9 +1,30 @@
-# Desenvolvimento_-gil
-# pra preencher:
-a. Nome do Grupo e logo de apresentação.
-b. Nome da disciplina, ano, semestre.
-c. Nome dos integrantes do grupo, foto, link para a conta github.
-d. Descrição do que é o projeto (objetivo, principais funcionalidades do soŌware,
-público-alvo, etc)
-e. Documentos que serão encontrados no repositório (criaremos links para cada
-documento como se fosse um sumário). Por enquanto, deixem sem link. 
+# Equipe: D.O.R -- Desenvolvendo com Ódio e Ranço
+
+Logo do sistema:
+ <div align="left"><img src="https://i.postimg.cc/zvnjk3zv/Whats-App-Image-2025-05-27-at-8-44-27-PM.jpg" width="300"/></div> 
+
+
+Nome dos Integrantes:
+| Nome             | Foto                      | GitHub                                             |
+| ---------------- | ------------------------- | -------------------------------------------------- |
+| Leda Alexandre Miura  |  <div align="center"><img src="https://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K1112234U4" width="60"/></div>                   | [@miiura](https://github.com/miiura)       |
+| Matheus José Rossieri |  <div align="center"><img src="LINK IMAGEM" width="60"/></div>  | [@ARROBAGITHUB](LINKGITHUB)             |
+| Alexis Liasch Tavares | <div align="center"><img src="IMAGEM" width="60"/></div> | [@ARROBA](LINKGITHUB)           |
+| Kevin Luiz Botelho Lima | <div align="center"><img src="IMAGEM" width="60"/></div> | [@ARROBA](LINKGITHUB)           |
+| Alex Luciano de Souza Santos | <div align="center"><img src="IMAGEM" width="60"/></div> | [@ARROBA](LINKGITHUB)           |
+
+
+Disciplina: Desenvolvimento Ágil, 2025/1
+
+Constock é um sistema de contagem de estoque projetado para ser simples e intuitivo para usar, entre suas funcionalidades, se destaca:
+
+Cadastro de itens variados;
+Edição ou exclusão destes itens cadastrados;
+Visa ter uma interface mais amigável e intuitiva para administradores e funcionários.
+
+Público-alvo: Empresas de portes variados que desejam atribuir uma ferramenta intuitiva à função de controle de estoque.
+
+Documentos a serem encontrados:
+*Requisitos Funcionais (RF);
+*Requisitos Não-funcionais (RNF);
+*História de Usuários (US);
