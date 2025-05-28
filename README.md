@@ -8,7 +8,7 @@ Nome dos Integrantes:
 | Nome             | Foto                      | GitHub                                             |
 | ---------------- | ------------------------- | -------------------------------------------------- |
 | Leda Alexandre Miura  |  <div align="center"><img src="https://media.licdn.com/dms/image/v2/D4D03AQHP8RrWR2UvPg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1693867401851?e=1753920000&v=beta&t=U3VXCWnBEpYatiCiUPOUYH9Go2J-k0dHH5PyB-Z0F5o" width="60"/></div>                   | [@miiura](https://github.com/miiura)       |
-| Matheus José Rossieri |  <div align="center"><img src="LINK IMAGEM" width="60"/></div>  | [@ARROBAGITHUB](LINKGITHUB)             |
+| Matheus José Rossieri |  <div align="center"><img src="https://media.licdn.com/dms/image/v2/D4D03AQGl8Cpb1EC21w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1696288697873?e=1753920000&v=beta&t=6CzfB0cT5f-ALfEez1rM6QzoxCvr9h-K1FbrvdCGm_I" width="60"/></div>  | [@MatheusRossieri](https://github.com/MatheusRossieri)             |
 | Alexis Liasch Tavares | <div align="center"><img src="IMAGEM" width="60"/></div> | [@ARROBA](LINKGITHUB)           |
 | Kevin Luiz Botelho Lima | <div align="center"><img src="IMAGEM" width="60"/></div> | [@ARROBA](LINKGITHUB)           |
 | Alex Luciano de Souza Santos | <div align="center"><img src="IMAGEM" width="60"/></div> | [@ARROBA](LINKGITHUB)           |
