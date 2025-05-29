@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contstock - Cadastro</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="form-header">
+      <span class="form-header-icon"><i class="fa-solid fa-box-archive"></i></span>
+      <h1>Contstock</h1>
+      <h2>Cadastro de Usuário</h2>
+    </div>
+    <form id="cadastroForm" class="form-card">
+      <input type="text" id="nome" placeholder="Nome completo" required autocomplete="name"/>
+      <input type="email" id="email" placeholder="E-mail" required autocomplete="email"/>
+      <input type="password" id="senha" placeholder="Senha" required autocomplete="new-password"/>
+      <button type="submit"><i class="fa-solid fa-user-plus"></i> Cadastrar</button>
+    </form>
+    <p id="msgCadastro" class="form-error" style="display:none;"></p>
+    <p class="form-footer">
+      Já tem uma conta? <a href="index.html">Faça login</a>
+    </p>
+  </div>
+  <script src="js/cadastro.js"></script>
+</body>
+</html>

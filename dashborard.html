@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contstock - Estoque</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <div style="display:flex;flex-direction:column;align-items:center;gap:8px;margin-top:40px;">
+      <span style="font-size:2.8rem;color:#e75c1e;">
+        <i class="fa-solid fa-boxes-stacked"></i>
+      </span>
+      <h1 style="margin:0;">Contstock</h1>
+      <h2 style="margin-bottom:24px;">Lista de Itens no Estoque</h2>
+    </div>
+    <table border="0" cellpadding="10" cellspacing="0" style="max-width:900px;margin:auto;">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Descrição</th>
+          <th>Categoria</th>
+          <th>Quantidade</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Álcool Gel</td>
+          <td>Frasco de 500ml</td>
+          <td>Higiene</td>
+          <td>20</td>
+          <td>
+            <a href="editar-item.html?nome=Álcool Gel" title="Editar">
+              <i class="fa-solid fa-pen-to-square"></i>
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div style="display:flex;gap:12px;justify-content:center;margin-top:24px;">
+      <a href="cadastrar-item.html">
+        <button style="background:#e75c1e;">
+          <i class="fa-solid fa-plus"></i> Cadastrar Novo Item
+        </button>
+      </a>
+      <a href="index.html">
+        <button style="background:#232b4a;">
+          <i class="fa-solid fa-arrow-right-from-bracket"></i> Sair
+        </button>
+      </a>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contstock - Editar Quantidade</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="form-header">
+      <span class="form-header-icon"><i class="fa-solid fa-pen-to-square"></i></span>
+      <h1>Contstock</h1>
+      <h2>Editar Quantidade do Item</h2>
+    </div>
+    <form class="form-card" id="formEditarItem">
+      <input type="text" id="nome" name="nome" disabled placeholder="Nome do Item">
+      <input type="number" id="quantidade" name="quantidade" min="0" required placeholder="Nova Quantidade">
+      <div class="form-actions">
+        <button type="submit"><i class="fa-solid fa-check"></i> Atualizar</button>
+        <a href="dashboard.html">
+          <button type="button"><i class="fa-solid fa-xmark"></i> Cancelar</button>
+        </a>
+      </div>
+    </form>
+  </div>
+  <script src="js/editar-item.js"></script>
+</body>
+</html>

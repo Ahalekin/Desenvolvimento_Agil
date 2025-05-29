@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contstock - Estoque</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="form-header">
+      <span class="form-header-icon"><i class="fa-solid fa-box-archive"></i></span>
+      <h1>Depósito</h1>
+    </div>
+    <div class="cards-list" id="estoqueLista">
+      <!-- Itens serão inseridos via JS -->
+    </div>
+    <div id="avisoEstoqueVazio" style="display:none; color:#fff; text-align:center; margin-top:40px; font-size:1.15rem;">
+      Nenhum item cadastrado.<br>
+      Clique no botão <b style="color:#e75c1e;"><i class="fa-solid fa-plus"></i></b> no canto inferior direito para adicionar o primeiro item.
+    </div>
+    <div class="dashboard-actions">
+      <!-- Remover botão antigo de sair -->
+    </div>
+    <!-- Botão flutuante adicionar item -->
+    <a href="cadastrar-item.html" class="fab-add-item" title="Cadastrar Novo Item">
+      <i class="fa-solid fa-plus"></i>
+    </a>
+    <!-- Botão flutuante sair -->
+    <button id="btnSair" class="fab-exit" type="button" title="Sair">
+      <i class="fa-solid fa-arrow-right-from-bracket"></i>
+    </button>
+  </div>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
