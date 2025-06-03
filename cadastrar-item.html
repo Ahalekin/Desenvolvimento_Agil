@@ -9,27 +9,43 @@
 </head>
 <body>
   <div class="container">
-    <div style="display:flex;flex-direction:column;align-items:center;gap:10px;margin-top:40px;">
-      <span style="font-size:2.6rem;color:#e75c1e;">
-        <i class="fa-solid fa-plus"></i>
-      </span>
-      <h1 style="margin:0;font-size:2rem;">Contstock</h1>
-      <h2 style="margin-bottom:24px;font-size:1.25rem;">Cadastrar Novo Item</h2>
+    <div class="form-header">
+      <span class="form-header-icon"><i class="fa-solid fa-plus"></i></span>
+      <h1>Contstock</h1>
+      <h2>Cadastrar Novo Item</h2>
     </div>
     <form class="form-card" id="formNovoItem">
       <input type="text" id="nome" name="nome" required autocomplete="off" placeholder="Nome do Item">
+      <input type="number" id="codigo" name="codigo" required autocomplete="off" placeholder="Código do Item" step="1" min="0">
       <input type="text" id="descricao" name="descricao" autocomplete="off" placeholder="Descrição">
       <input type="text" id="categoria" name="categoria" autocomplete="off" placeholder="Categoria">
-      <input type="number" id="quantidade" name="quantidade" min="0" required placeholder="Quantidade">
-
+      <input type="number" id="quantidade" name="quantidade" min="0" required placeholder="Quantidade Inicial">
+      <input type="number" id="quantidadeIdeal" name="quantidadeIdeal" min="0" required placeholder="Quantidade Ideal">
       <div class="form-actions">
         <button type="submit"><i class="fa-solid fa-check"></i> Salvar</button>
-        <a href="dashboard.html">
-          <button type="button"><i class="fa-solid fa-xmark"></i> Cancelar</button>
+        <a href="dashboard.html" style="text-decoration:none;">
+          <button type="button" tabindex="-1"><i class="fa-solid fa-xmark"></i> Cancelar</button>
         </a>
       </div>
     </form>
+    <p id="msgPermissao" class="form-error" style="display:none;text-align:center;"></p>
   </div>
   <script src="js/cadastrar-item.js"></script>
+  <script>
+    // Permite acesso se for admin OU se tiver permissão de cadastrar
+    const usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogadoInfo') || 'null');
+    if (
+      !usuarioLogado ||
+      (
+        usuarioLogado.tipo !== 'admin' &&
+        usuarioLogado.email !== 'admin@utfpr.edu.br' &&
+        !(usuarioLogado.permissoes && usuarioLogado.permissoes.cadastrar)
+      )
+    ) {
+      document.getElementById('formNovoItem').style.display = 'none';
+      document.getElementById('msgPermissao').textContent = 'Você não tem permissão para cadastrar itens.';
+      document.getElementById('msgPermissao').style.display = 'block';
+    }
+  </script>
 </body>
 </html>

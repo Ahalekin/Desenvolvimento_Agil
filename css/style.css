@@ -580,6 +580,61 @@ td a:hover {
   transform: scale(1.08);
 }
 
+/* Botão flutuante adicionar colaborador (admin) */
+.fab-add-user {
+  position: fixed;
+  right: 96px;
+  bottom: 24px;
+  width: 56px;
+  height: 56px;
+  background: #388e3c;
+  color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px #0004;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  z-index: 101;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.13s;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+.fab-add-user:hover {
+  background: #232b4a;
+  box-shadow: 0 8px 24px #0006;
+  transform: scale(1.08);
+}
+
+/* Botão flutuante histórico (admin) */
+.fab-historico {
+  position: fixed;
+  right: 168px;
+  bottom: 24px;
+  width: 56px;
+  height: 56px;
+  background: #ffb300;
+  color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px #0004;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  z-index: 102;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.13s;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+.fab-historico:hover {
+  background: #232b4a;
+  box-shadow: 0 8px 24px #0006;
+  transform: scale(1.08);
+}
 @media (max-width: 600px) {
   .fab-add-item {
     right: 12px;
@@ -594,5 +649,19 @@ td a:hover {
     width: 36px;
     height: 36px;
     font-size: 1rem;
+  }
+  .fab-add-user {
+    right: 68px;
+    bottom: 12px;
+    width: 44px;
+    height: 44px;
+    font-size: 1.4rem;
+  }
+  .fab-historico {
+    right: 124px;
+    bottom: 12px;
+    width: 44px;
+    height: 44px;
+    font-size: 1.4rem;
   }
 }

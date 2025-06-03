@@ -16,15 +16,32 @@
     </div>
     <form class="form-card" id="formEditarItem">
       <input type="text" id="nome" name="nome" disabled placeholder="Nome do Item">
+      <input type="text" id="codigo" name="codigo" disabled placeholder="Código do Item">
+      <input type="text" id="descricao" name="descricao" placeholder="Descrição">
+      <input type="text" id="categoria" name="categoria" placeholder="Categoria">
       <input type="number" id="quantidade" name="quantidade" min="0" required placeholder="Nova Quantidade">
+      <input type="number" id="quantidadeIdeal" name="quantidadeIdeal" min="0" required placeholder="Quantidade Ideal">
       <div class="form-actions">
         <button type="submit"><i class="fa-solid fa-check"></i> Atualizar</button>
-        <a href="dashboard.html">
-          <button type="button"><i class="fa-solid fa-xmark"></i> Cancelar</button>
+        <a href="dashboard.html" style="text-decoration:none;">
+          <button type="button" tabindex="-1"><i class="fa-solid fa-xmark"></i> Cancelar</button>
         </a>
       </div>
     </form>
+    <p id="msgPermissao" class="form-error" style="display:none;text-align:center;"></p>
   </div>
   <script src="js/editar-item.js"></script>
+  <script>
+    // Bloqueia visualização do formulário para não-admins
+    const usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogadoInfo') || 'null');
+    if (
+      !usuarioLogado ||
+      (usuarioLogado.tipo !== 'admin' && usuarioLogado.email !== 'admin@utfpr.edu.br')
+    ) {
+      document.getElementById('formEditarItem').style.display = 'none';
+      document.getElementById('msgPermissao').textContent = 'Apenas administradores podem editar itens.';
+      document.getElementById('msgPermissao').style.display = 'block';
+    }
+  </script>
 </body>
 </html>

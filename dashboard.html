@@ -13,6 +13,10 @@
       <span class="form-header-icon"><i class="fa-solid fa-box-archive"></i></span>
       <h1>Depósito</h1>
     </div>
+    <!-- Aviso de quantidade abaixo do ideal deve aparecer acima da lista -->
+    <div id="avisoAbaixoIdeal" style="display:none; color:#fff; background:#d32f2f; text-align:center; margin:24px auto 0 auto; font-size:1.08rem; font-weight:bold; border-radius:8px; max-width:420px; padding:10px 18px;">
+      <!-- Conteúdo será preenchido via JS -->
+    </div>
     <div class="cards-list" id="estoqueLista">
       <!-- Itens serão inseridos via JS -->
     </div>
@@ -20,17 +24,22 @@
       Nenhum item cadastrado.<br>
       Clique no botão <b style="color:#e75c1e;"><i class="fa-solid fa-plus"></i></b> no canto inferior direito para adicionar o primeiro item.
     </div>
-    <div class="dashboard-actions">
-      <!-- Remover botão antigo de sair -->
-    </div>
-    <!-- Botão flutuante adicionar item -->
     <a href="cadastrar-item.html" class="fab-add-item" title="Cadastrar Novo Item">
       <i class="fa-solid fa-plus"></i>
     </a>
-    <!-- Botão flutuante sair -->
+    <a href="cadastro.html" class="fab-add-user" id="fabAddUser" title="Cadastrar Novo Usuário" style="display:none;">
+      <i class="fa-solid fa-user-plus"></i>
+    </a>
     <button id="btnSair" class="fab-exit" type="button" title="Sair">
       <i class="fa-solid fa-arrow-right-from-bracket"></i>
     </button>
+    <script>
+      // Exibe o botão de cadastro de usuário apenas para admin
+      const usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogadoInfo') || 'null');
+      if (usuarioLogado && (usuarioLogado.tipo === 'admin' || usuarioLogado.email === 'admin@utfpr.edu.br')) {
+        document.getElementById('fabAddUser').style.display = 'flex';
+      }
+    </script>
   </div>
   <script src="js/dashboard.js"></script>
 </body>
