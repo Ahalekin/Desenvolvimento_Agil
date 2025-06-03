@@ -25,6 +25,6 @@ Visa ter uma interface mais amigável e intuitiva para administradores e funcion
 Público-alvo: Empresas de portes variados que desejam atribuir uma ferramenta intuitiva à função de controle de estoque.
 
 Documentos a serem encontrados:
-*Requisitos Funcionais (RF);
-*Requisitos Não-funcionais (RNF);
-*História de Usuários (US);
+*Requisitos Funcionais (RF);*
+*Requisitos Não-funcionais (RNF);*
+*História de Usuários (US);*
