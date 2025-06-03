@@ -15,7 +15,6 @@ A Tabela a seguir contém as **Histórias de Usuário** do sistema, estruturadas
 | US09  | Como usuário logado, quero exportar a lista de itens do estoque em formato CSV ou PDF para facilitar o compartilhamento de informações. | 1. Opção de exportação disponível <br> 2. Arquivo gerado corretamente <br> 3. Mensagem de confirmação. | Média |
 | US10  | Como usuário logado, quero receber notificações quando a quantidade de um item estiver abaixo de um limite mínimo para evitar falta de produtos. | 1. Definição de limite mínimo <br> 2. Notificação automática <br> 3. Visualização clara do alerta. | Alta |
 | US11  | Como usuário logado, quero filtrar a lista de itens por categoria para encontrar produtos de um determinado tipo mais facilmente. | 1. Filtro por categoria funcional <br> 2. Resultados exibidos corretamente <br> 3. Facilidade de uso. | Média |
-| US12  | Como administrador, quero visualizar um histórico de alterações nos itens do estoque para acompanhar movimentações e auditorias. | 1. Registro de alterações <br> 2. Visualização filtrada por item/data <br> 3. Acesso restrito a administradores. | Média |
-| US13  | Como administrador, quero gerenciar permissões de acesso para controlar quem pode cadastrar, editar ou excluir itens do estoque. | 1. Definição de perfis de acesso <br> 2. Restrições aplicadas corretamente <br> 3. Mensagem de erro ao tentar ação não permitida. | Alta |
+| US12  | Como administrador, quero gerenciar permissões de acesso para controlar quem pode cadastrar, editar ou excluir itens do estoque. | 1. Definição de perfis de acesso <br> 2. Restrições aplicadas corretamente <br> 3. Mensagem de erro ao tentar ação não permitida. | Alta |
 
 _Tabela: Histórias de Usuário_
