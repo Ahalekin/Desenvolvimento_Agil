@@ -14,7 +14,7 @@ Nome dos Integrantes:
 | Alex Luciano de Souza Santos | <div align="center"><img src="https://media.licdn.com/dms/image/v2/D5603AQGEOaazDZRJvg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1709057723760?e=1754524800&v=beta&t=qKq9UiJZftSAao8ujqNzTH6QqaJgYbJfH4hVa6NksGI" width="60"/></div> | [@arrobagithub](linkgithub)           |
 
 
-Disciplina: Desenvolvimento Ágil, 2025/1
+***Disciplina:*** Desenvolvimento Ágil, 2025/1
 
 Constock é um sistema de contagem de estoque projetado para ser simples e intuitivo para usar, entre suas funcionalidades, se destaca:
 
@@ -22,9 +22,9 @@ Cadastro de itens variados;
 Edição ou exclusão destes itens cadastrados;
 Visa ter uma interface mais amigável e intuitiva para administradores e funcionários.
 
-Público-alvo: Empresas de portes variados que desejam atribuir uma ferramenta intuitiva à função de controle de estoque.
+***Público-alvo:*** Empresas de portes variados que desejam atribuir uma ferramenta intuitiva à função de controle de estoque.
 
-Documentos a serem encontrados:
+**Documentos a serem encontrados:**
 *Requisitos Funcionais (RF);*
 *Requisitos Não-funcionais (RNF);*
 *História de Usuários (US);*
