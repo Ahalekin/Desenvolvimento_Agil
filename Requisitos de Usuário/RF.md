@@ -15,9 +15,6 @@
 | RF11   | O usuário pode exportar a lista de itens do estoque em formato CSV ou PDF. | Funcionalidade | Média | US09 |
 | RF12   | O sistema notifica o usuário quando a quantidade de um item estiver abaixo do limite mínimo. | Funcionalidade | Alta | US10 |
 | RF13   | O administrador pode visualizar o histórico de alterações dos itens do estoque. | Funcionalidade | Média | US11 |
-| RF14   | O usuário pode filtrar a lista de itens por categoria.            | Usabilidade          | Média          | US12                       |
-| RF15   | O usuário pode anexar imagens aos itens do estoque.               | Funcionalidade       | Baixa          | US13                       |
-| RF16   | O administrador pode gerenciar permissões de acesso dos usuários. | Funcionalidade       | Alta           | US14                       |
-| RF17   | O usuário pode visualizar gráficos e relatórios do estoque.       | Funcionalidade       | Média          | US15                       |
-
+| RF14   | O usuário pode filtrar a lista de itens por categoria.            | Usabilidade          | Média          | US11                       |
+| RF15   | O usuário pode anexar imagens aos itens do estoque.               | Funcionalidade       | Baixa          | US12                       |
 _Tabela: Requisitos Funcionais_
