@@ -11,7 +11,7 @@ Nome dos Integrantes:
 | Matheus José Rossieri |  <div align="center"><img src="https://media.licdn.com/dms/image/v2/D4D03AQGl8Cpb1EC21w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1696288697873?e=1753920000&v=beta&t=6CzfB0cT5f-ALfEez1rM6QzoxCvr9h-K1FbrvdCGm_I" width="60"/></div>  | [@MatheusRossieri](https://github.com/MatheusRossieri)             |
 | Alexis Liasch Tavares | <div align="center"><img src="https://avatars.githubusercontent.com/u/118134379?v=4" width="60"/></div> | [@Ahalekin](https://github.com/Ahalekin)           |
 | Kevin Luiz Botelho Lima | <div align="center"><img src="https://media.licdn.com/dms/image/v2/D4E03AQFIHvf6BPk1ww/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711394967164?e=1753920000&v=beta&t=esBMojzkzwLZwU7XHrSQv98hSzzw7qA3RsA1IS36gvg" width="60"/></div> | [@KevinLuiz10](https://github.com/KevinLuiz10)           |
-| Alex Luciano de Souza Santos | <div align="center"><img src="https://media.licdn.com/dms/image/v2/D5603AQGEOaazDZRJvg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1709057723760?e=1754524800&v=beta&t=qKq9UiJZftSAao8ujqNzTH6QqaJgYbJfH4hVa6NksGI" width="60"/></div> | [@arrobagithub](linkgithub)           |
+| Alex Luciano de Souza Santos | <div align="center"><img src="https://media.licdn.com/dms/image/v2/D5603AQGEOaazDZRJvg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1709057723760?e=1754524800&v=beta&t=qKq9UiJZftSAao8ujqNzTH6QqaJgYbJfH4hVa6NksGI" width="60"/></div> | [@alucianossantos](https://github.com/alucianossantos)           |
 
 
 ***Disciplina:*** Desenvolvimento Ágil, 2025/1
