@@ -1,12 +1,14 @@
 # Equipe: D.O.R -- Desenvolvendo com Ódio e Ranço
-_________________________________________________
-Site: <<a href="https://ahalekin.github.io/Desenvolvimento_Agil/">constock.com.br</a><br><br>
-
-Logo do sistema:
+---
+## Logo do sistema:
  <div align="left"><img src="https://i.postimg.cc/zvnjk3zv/Whats-App-Image-2025-05-27-at-8-44-27-PM.jpg" width="300"/></div> 
+ <br>
 
+---
 
-Nome dos Integrantes:
+## Protótipo: <a href="https://ahalekin.github.io/Desenvolvimento_Agil/">Constock</a><br><br>
+
+## Nome dos Integrantes:
 | Nome             | Foto                      | GitHub                                             |
 | ---------------- | ------------------------- | -------------------------------------------------- |
 | Leda Alexandre Miura  |  <div align="center"><img src="https://media.licdn.com/dms/image/v2/D4D03AQHP8RrWR2UvPg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1693867401851?e=1753920000&v=beta&t=U3VXCWnBEpYatiCiUPOUYH9Go2J-k0dHH5PyB-Z0F5o" width="60"/></div>                   | [@miiura](https://github.com/miiura)       |
